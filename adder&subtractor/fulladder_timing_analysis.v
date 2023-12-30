@@ -1,4 +1,4 @@
-module fulladder(
+module fulladder(  //run fulladder_tb with these given time delays
     input A,
     input B,
     input Cin,

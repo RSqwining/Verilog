@@ -3,7 +3,7 @@ module ThreeByOneMultiplexer_tb;
     wire D;
     ThreeByOneMultiplexer il (.A (A), .B (B), .C (C), .sel1 (sel1), .sel2(sel2), .out (D));
     initial
-begin
+        begin
             // sel1 = 0, sel2 = 0
             sel1 = 0;
             sel2 = 0;
@@ -93,5 +93,5 @@ begin
             #20;
             B = 0;
             #20;
-end
+        end
 endmodule

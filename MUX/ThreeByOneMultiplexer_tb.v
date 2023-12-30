@@ -1,3 +1,4 @@
+```verilog
 module ThreeByOneMultiplexer_tb;
     reg A, B, C, sel1, sel2;
     wire D;
@@ -96,3 +97,4 @@ begin
             #20;
 end
 endmodule
+```
